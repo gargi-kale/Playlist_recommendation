@@ -16,4 +16,4 @@ Energy: Represents a perceptual measure of intensity and activity. Typically, en
 Acousticness: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. The closer to 1, the more acoustic the track.
 
 Taking these features of a new input song, the song is recommended two of the three playlists.
-My model has an accuracy of 0.87. This model can be extended to more data and used to classify songs more accurately. 
+My model has an accuracy of 0.87. This model can be extended to more data and can be used to recommend more number of playlists.
