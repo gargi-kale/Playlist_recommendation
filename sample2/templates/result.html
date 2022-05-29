@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Playlist_sorter
+        </title>
+        <style type="text/css">
+            #centered_div {
+          width: 1000px;
+          height: 100px;
+          position: fixed;
+          top: 20%;
+          left: 50%;
+          margin-left: -500px;
+          margin-top: -25px;
+          }
+          #left, #right {
+        display: inline-block;
+        }
+        </style>
+    </head>
+    <body>
+        <style>
+            body{
+              background-image: url("{% static '/images/background_spotify copy.jpg' %}");
+              background-size: 100%;
+            }
+          </style>
+        <center>
+            <div id="centered_div">
+                <figure class="left">
+                <img src="{% static ans %}" style="width:25%"/>
+                <figcaption>1st Playlist recommendated for the song {{song_name}}</figcaption>
+            </figure>
+            <figure class="right">
+                <img src="{% static ans2 %}" style="width:25%"/>
+                <figcaption>2nd Playlist recommendated for the song {{song_name}}</figcaption>
+            </figure>
+        </div>
+        </center>
+        </body>
+
+</html>
