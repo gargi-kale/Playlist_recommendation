@@ -10,8 +10,8 @@ from scipy import stats
 import random 
 import numpy as np
 
-client_id='563f86d9ae474e1387b5fe497bc1bcd7'
-client_secret='a157b170e49f4330aed7782fbedf1ea8'
+#Declare given Client Credentials here 
+
 client_credentials=SpotifyClientCredentials(client_id,client_secret)
 sp=spotipy.Spotify(client_credentials_manager=client_credentials)
 df=pd.read_csv('playlistdata.csv')
